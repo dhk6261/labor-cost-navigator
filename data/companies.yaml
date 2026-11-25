@@ -1,0 +1,10 @@
+# 가상값: 시연용 가상 기업. 관리자가 화면에서 추가한 기업(계정 없음)은 data/runtime/companies.json에 저장됩니다.
+companies:
+  - id: CO-A
+    name: 가상기업A(청소)
+    contract: C-001
+    files: 가상업체A_산출내역.xlsx   # 승인 가능한 산출내역(누락·미달·과지급 없음)
+  - id: CO-B
+    name: 가상기업B(청소)
+    contract: C-002
+    files: 가상업체B_산출내역.xlsx

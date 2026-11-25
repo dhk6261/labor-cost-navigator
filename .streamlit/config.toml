@@ -1,0 +1,42 @@
+# 공공기관 업무시스템 스타일(정부 디자인 시스템 계열 남색·회색). 글꼴은 인터넷 없이 시스템 글꼴을 쓴다.
+[theme]
+base = "light"
+primaryColor = "#0B50D0"
+backgroundColor = "#F4F6F9"
+secondaryBackgroundColor = "#EEF1F6"
+textColor = "#1E2124"
+borderColor = "#D6DBE3"
+font = "'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+headingFont = "'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+baseFontSize = 14
+baseRadius = "small"
+buttonRadius = "small"
+showWidgetBorder = true
+linkColor = "#0B50D0"
+linkUnderline = false
+dataframeHeaderBackgroundColor = "#EEF2F8"
+dataframeBorderColor = "#D6DBE3"
+redColor = "#C62828"
+orangeColor = "#C2410C"
+yellowColor = "#A16207"
+greenColor = "#1B7F4B"
+blueColor = "#0B50D0"
+violetColor = "#6B21A8"
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#0F2B52"
+secondaryBackgroundColor = "#173A69"
+textColor = "#E6ECF5"
+borderColor = "#2A4C7E"
+primaryColor = "#3D86FF"
+linkColor = "#9CC3FF"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+
+[client]
+toolbarMode = "minimal"

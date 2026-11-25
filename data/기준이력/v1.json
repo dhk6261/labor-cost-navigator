@@ -1,0 +1,104 @@
+{
+ "version": 1,
+ "at": "2026-11-25 00:06:44",
+ "by": "시스템",
+ "note": "초기 기준(시연 시작 상태)",
+ "changes": [],
+ "year": 2026,
+ "items": {
+  "market_daily": {
+   "name": "시중노임단가(단순노무, 일급)",
+   "value": 95767,
+   "unit": "원",
+   "status": "확정",
+   "source": "2026년 상반기 임금조사, 지침 5-2",
+   "announced": "2026.6",
+   "period": "2026 상반기"
+  },
+  "min_wage": {
+   "name": "최저임금(시급)",
+   "value": 10320,
+   "unit": "원",
+   "status": "확정",
+   "source": "2026년 적용 최저임금 고시",
+   "announced": "2026년 적용 고시",
+   "period": "2026"
+  },
+  "pension": {
+   "name": "국민연금(사용자·근로자 각)",
+   "value": 0.0475,
+   "unit": "%",
+   "status": "확정",
+   "source": "국민연금법 제88조, 연금개혁 일정",
+   "announced": "2025.3 법 개정",
+   "period": "2026"
+  },
+  "health": {
+   "name": "건강보험(각)",
+   "value": 0.03595,
+   "unit": "%",
+   "status": "확정",
+   "source": "2026년 건강보험료율 7.19%",
+   "announced": "2026년 적용",
+   "period": "2026"
+  },
+  "ltc": {
+   "name": "장기요양(건강보험료 대비, 법정)",
+   "value": 0.1314,
+   "unit": "%",
+   "status": "확정",
+   "source": "2026년 요율, 급여대장 공제액과 일치",
+   "announced": "2026년 적용",
+   "period": "2026"
+  },
+  "cleaning_ltc": {
+   "name": "장기요양(청소 산출내역 기재)",
+   "value": 0.1295,
+   "unit": "%",
+   "status": "원본",
+   "source": "청소용역 산출내역 B17 기재값",
+   "announced": "원본 기재",
+   "period": "원본"
+  },
+  "employment_employer": {
+   "name": "고용보험(사업주, 산출내역)",
+   "value": 0.0175,
+   "unit": "%",
+   "status": "원본",
+   "source": "청소용역 산출내역 B18",
+   "announced": "원본 기재",
+   "period": "원본"
+  },
+  "employment_worker": {
+   "name": "고용보험(근로자)",
+   "value": 0.009,
+   "unit": "%",
+   "status": "확정",
+   "source": "급여대장 공제액과 일치",
+   "announced": "2026년 적용",
+   "period": "2026"
+  },
+  "industrial": {
+   "name": "산재보험(시설관리)",
+   "value": 0.0086,
+   "unit": "%",
+   "status": "원본",
+   "source": "청소용역 산출내역 B14",
+   "announced": "원본 기재",
+   "period": "원본"
+  },
+  "wage_claim": {
+   "name": "임금채권보장",
+   "value": 0.0009,
+   "unit": "%",
+   "status": "원본",
+   "source": "청소용역 산출내역 B19",
+   "announced": "원본 기재",
+   "period": "원본"
+  }
+ },
+ "caps": {
+  "overhead_cap": 0.09,
+  "profit_cap": 0.1
+ }
+}

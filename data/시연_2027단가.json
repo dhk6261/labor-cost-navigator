@@ -1,0 +1,97 @@
+{
+  "year": 2027,
+  "label": "2027년 공표",
+  "items": {
+    "market_daily": {
+      "name": "시중노임단가(단순노무, 일급)",
+      "value": 99310,
+      "unit": "원",
+      "status": "가정",
+      "source": "2026년 하반기 조사 2026.11.30 공표 예정. 최저임금 인상률 3.7%를 적용한 시연용 가정값이며 공표 후 교체 필요",
+      "announced": "2026.11.30 공표 예정",
+      "period": "2026 하반기 조사",
+      "status_note": "가정값(11.30 공표 후 갱신)"
+    },
+    "min_wage": {
+      "name": "최저임금(시급)",
+      "value": 10700,
+      "unit": "원",
+      "status": "확정",
+      "source": "고용노동부 2026.8.5 고시",
+      "announced": "2026.8.5",
+      "period": "2027"
+    },
+    "pension": {
+      "name": "국민연금(사용자·근로자 각)",
+      "value": 0.05,
+      "unit": "%",
+      "status": "확정",
+      "source": "연금개혁법 단계 인상, 2027년 10%",
+      "announced": "2025.3 법 개정",
+      "period": "2027"
+    },
+    "health": {
+      "name": "건강보험(각)",
+      "value": 0.03595,
+      "unit": "%",
+      "status": "확정",
+      "source": "건강보험정책심의위원회 2026.9.8, 7.19% 동결",
+      "announced": "2026.9.8",
+      "period": "2027"
+    },
+    "ltc": {
+      "name": "장기요양(건강보험료 대비, 법정)",
+      "value": 0.139,
+      "unit": "%",
+      "status": "확정",
+      "source": "장기요양위원회 2026.10.30 의결(소득 대비 0.9994%, 건강보험료 대비 13.90%)",
+      "announced": "2026.10.30",
+      "period": "2027"
+    },
+    "cleaning_ltc": {
+      "name": "장기요양(청소 산출내역 적용)",
+      "value": 0.139,
+      "unit": "%",
+      "status": "확정",
+      "source": "장기요양위원회 2026.10.30 의결(소득 대비 0.9994%, 건강보험료 대비 13.90%)",
+      "announced": "2026.10.30",
+      "period": "2027"
+    },
+    "employment_employer": {
+      "name": "고용보험(사업주, 산출내역)",
+      "value": 0.0175,
+      "unit": "%",
+      "status": "잠정",
+      "source": "2027년 고시 전, 현행 유지",
+      "announced": "고시 전",
+      "period": "2027"
+    },
+    "employment_worker": {
+      "name": "고용보험(근로자)",
+      "value": 0.009,
+      "unit": "%",
+      "status": "잠정",
+      "source": "2027년 고시 전, 현행 유지",
+      "announced": "고시 전",
+      "period": "2027"
+    },
+    "industrial": {
+      "name": "산재보험(시설관리)",
+      "value": 0.0086,
+      "unit": "%",
+      "status": "잠정",
+      "source": "2027년 고시 전, 현행 유지",
+      "announced": "고시 전",
+      "period": "2027"
+    },
+    "wage_claim": {
+      "name": "임금채권보장",
+      "value": 0.0009,
+      "unit": "%",
+      "status": "잠정",
+      "source": "2027년 고시 전, 현행 유지",
+      "announced": "고시 전",
+      "period": "2027"
+    }
+  }
+}

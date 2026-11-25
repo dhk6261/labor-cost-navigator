@@ -1,0 +1,22 @@
+# 시연용 가상 계정. 실제 도입 시 공단 인증(SSO 등)으로 교체
+# 비밀번호(시연용 demo1234)는 저장하지 않고 PBKDF2-SHA256 솔트 해시만 저장합니다.
+iterations: 120000
+accounts:
+  company_a:
+    name: 가상기업A(청소)
+    role: company
+    company: 'CO-A'
+    salt: 8ee19a8fefde79da24c7bfb14431546c
+    hash: 5f9577e540195023ee88c8872369f2c5c2cd1fe251b33c042125220ebeb87707
+  company_b:
+    name: 가상기업B(청소)
+    role: company
+    company: 'CO-B'
+    salt: 001352f0987e40b938433198af524ba6
+    hash: 5ef248fbafcc834575065616bf400702232c311adcbd4bba20ce7ad1d8f38b24
+  admin:
+    name: 공단 관리자A
+    role: admin
+    company: '*'
+    salt: 98fc390df3bba6bda3e226805373aef2
+    hash: 175f60cd08d3f14f7d8cc5b7f9158e415d1192cd3bba38c13125a8d929a5e425
