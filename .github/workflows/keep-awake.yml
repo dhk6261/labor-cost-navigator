@@ -1,0 +1,25 @@
+name: Keep Streamlit app awake
+
+on:
+  schedule:
+    # 6시간마다 (UTC 기준, 한국시간 03·09·15·21시경). GitHub 예약 실행은 지연될 수 있어 12시간보다 넉넉히 잡음
+    - cron: "17 0,6,12,18 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Visit app
+        env:
+          APP_URL: https://parkdaehee.streamlit.app/
+        run: python scripts/keep_awake.py
